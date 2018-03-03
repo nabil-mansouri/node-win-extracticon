@@ -1,0 +1,29 @@
+{
+  "name": "node-win-extracticon",
+  "version": "1.0.0",
+  "description": "A native plugin to extract associated icon from a file. Work on windows only. It extracts a large icon with transparency.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabil-mansouri/node-win-extracticon.git"
+  },
+  "keywords": [
+    "Native",
+    "windows",
+    "associated",
+    "icon"
+  ],
+  "author": "Nabil Mansouri",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nabil-mansouri/node-win-extracticon/issues"
+  },
+  "homepage": "https://github.com/nabil-mansouri/node-win-extracticon#readme",
+  "devDependencies": {
+    "nan": "^2.8.0"
+  }
+}
